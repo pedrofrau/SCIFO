@@ -1,0 +1,81 @@
+Language model created by QuickLM on Wed Jul  6 04:53:09 EDT 2016
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 14 sentences and 16 words
+
+\data\
+ngram 1=16
+ngram 2=28
+ngram 3=14
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-1.9243 BACKWARDS -0.2218
+-1.9243 DOWN -0.2218
+-1.9243 FORWARD -0.2218
+-1.9243 GO -0.2218
+-1.9243 INTRODUCE -0.2218
+-1.9243 LEFT -0.2218
+-1.9243 MOTORS -0.2218
+-1.9243 RIGHT -0.2218
+-1.9243 ROTATE -0.2218
+-1.9243 SCIFO -0.2218
+-1.9243 START -0.2218
+-1.9243 STOP -0.2218
+-1.9243 UP -0.2218
+-1.9243 YOURSELF -0.2218
+
+\2-grams:
+-1.4472 <s> BACKWARDS 0.0000
+-1.4472 <s> DOWN 0.0000
+-1.4472 <s> FORWARD 0.0000
+-1.4472 <s> GO 0.0000
+-1.4472 <s> INTRODUCE 0.0000
+-1.4472 <s> LEFT 0.0000
+-1.4472 <s> MOTORS 0.0000
+-1.4472 <s> RIGHT 0.0000
+-1.4472 <s> ROTATE 0.0000
+-1.4472 <s> SCIFO 0.0000
+-1.4472 <s> START 0.0000
+-1.4472 <s> STOP 0.0000
+-1.4472 <s> UP 0.0000
+-1.4472 <s> YOURSELF 0.0000
+-0.3010 BACKWARDS </s> -0.3010
+-0.3010 DOWN </s> -0.3010
+-0.3010 FORWARD </s> -0.3010
+-0.3010 GO </s> -0.3010
+-0.3010 INTRODUCE </s> -0.3010
+-0.3010 LEFT </s> -0.3010
+-0.3010 MOTORS </s> -0.3010
+-0.3010 RIGHT </s> -0.3010
+-0.3010 ROTATE </s> -0.3010
+-0.3010 SCIFO </s> -0.3010
+-0.3010 START </s> -0.3010
+-0.3010 STOP </s> -0.3010
+-0.3010 UP </s> -0.3010
+-0.3010 YOURSELF </s> -0.3010
+
+\3-grams:
+-0.3010 <s> BACKWARDS </s>
+-0.3010 <s> DOWN </s>
+-0.3010 <s> FORWARD </s>
+-0.3010 <s> GO </s>
+-0.3010 <s> INTRODUCE </s>
+-0.3010 <s> LEFT </s>
+-0.3010 <s> MOTORS </s>
+-0.3010 <s> RIGHT </s>
+-0.3010 <s> ROTATE </s>
+-0.3010 <s> SCIFO </s>
+-0.3010 <s> START </s>
+-0.3010 <s> STOP </s>
+-0.3010 <s> UP </s>
+-0.3010 <s> YOURSELF </s>
+
+\end\
